@@ -65,12 +65,6 @@ app.post('/webhooks/dtmf', (req, res) => {
         }] 
       break;
   } 
-  ncco2 = [
-    {
-        action: 'input',
-        eventUrl: [req.url]
-    }]
-  ncco.concat(ncco2);
   res.json(ncco); 
 })
 app.post('/webhooks/events', (req, res) => {
