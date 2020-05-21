@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    h1 Welcome to #{brand}!
+    if number
+        p #{username} regist OK!
+        
+        
+        form(action='/chat', method='post')
+            input.ghost-input(name='tonumber', type='text', placeholder='Enter SMS to Number', required='')
+            input.ghost-button(type='submit', value='Start Private SMS')
+
+        br 
+    else
+        p Please regist to continue
+        a(href="login")
+            button.ghost-button(type="button") Regist

@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+    h1 Please key in mobile No.
+    fieldset
+        form(action='/verify', method='post')
+            input.ghost-input(name='username', type='text', placeholder='Enter your name', required='')
+            <br>
+            input.ghost-input(name='number', type='text', placeholder='Enter your mobile number', required='')
+            <br>
+            input.ghost-button(type='submit', value='Get Verification Code')
