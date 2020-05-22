@@ -1,6 +1,6 @@
 # NodeJS Project
 
-> Certification Project for Vonage Verify & SMS using NodeJS and Express 
+> Certification Project for Vonage Voice using NodeJS and Express 
 
 ## Usage
 
