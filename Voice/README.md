@@ -34,7 +34,7 @@ Fallback POST https://e5a56cf7.ngrok.io/webhooks/events
 
 
 ## After starting the application
-1) Call virtual number
+1) Call VIRTUAL_NUMBER
 2) Press 1 followed by hash key to hear audio file
 3) Press 2 followed by hash key to hear current time and date
-4) Press 3 followed by hash key to transferred to another number with a “we are now connecting you to an agent who will be able to help you” message
+4) Press 3 followed by hash key to transferred to the To_Number with a “we are now connecting you to an agent who will be able to help you” message
