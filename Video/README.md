@@ -2,7 +2,7 @@
 
 > Certification Project for Vonage Video using NodeJS and Express 
 
-For Server side, launch application_server application 
+# For Server side, launch application_server application 
 ## Usage
 
 Install dependencies by going to root folder in cmd.
@@ -30,7 +30,7 @@ POST https://e5a56cf7.ngrok.io/routes/events
 ```
 
 
-For Client side.
+# For Client side, launch client application.
 
 ## Usage
 
